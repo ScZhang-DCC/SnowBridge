@@ -1,0 +1,10 @@
+cloudprober_ami        = "ami-0abcdef1234567890"       # Replace with real AMI ID in cn-northwest-1
+grafana_prometheus_ami = "ami-0123456789abcdef0"       # Replace with real AMI ID in cn-northwest-1
+lambda_code_bucket     = "dcc-monitoring-lambda-code"  # Replace with your S3 bucket in cn-northwest-1
+lambda_code_key        = "lambda/feishu_alert.zip"     # Lambda zip file path in the bucket
+feishu_webhook         = "https://open.feishu.cn/webhook/your-webhook-url"
+jira_lambda_code_key   = "lambda/jira_ticket.zip"       # Lambda zip file for Jira
+jira_url               = "https://your-jira-instance.atlassian.net"
+jira_user              = "your-email@example.com"
+jira_token             = "your-jira-api-token"
+jira_project           = "OPS"
