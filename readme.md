@@ -1,4 +1,4 @@
-# Automated Alerting & Ticket Loggin System for Snowflake
+# Automated Alerting & Ticket Logging System for Snowflake
 
 This project uses Terraform to provision a monitoring infrastructure in the AWS China region (`cn-northwest-1`). It includes:
 
